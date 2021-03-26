@@ -1,6 +1,8 @@
 :root {
   --main-color: #f7f3ed;
   --contrast-color: #FE4A11;
+  --primary-text: #000000;
+  --contrast-text: #2590AE;
 }
 
 html {
@@ -10,6 +12,21 @@ body {
   min-height: 100%;
   display: grid;
   grid-template-rows: 1fr auto;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  color: var(--primary-text);
+  min-height: 100px;
+  font-size: 1.5em;
+  align-items: center;
+}
+header ul li:hover {
+  height: 100%;
+  text-shadow: 0px 0px 3px var(--contrast-text);
+  cursor: pointer;
 }
 main {
   background-color: var(--main-color);

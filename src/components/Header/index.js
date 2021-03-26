@@ -1,5 +1,7 @@
 import banner from '../../banner.jpg';
-
+import {
+    Navigation
+} from '../index';
 const Header = () => {
     return (
         <header style={{
@@ -8,6 +10,7 @@ const Header = () => {
             width: '100vw',
             minHeight: '100px'
         }}>
+            <Navigation />
         </header>
     )
 }
