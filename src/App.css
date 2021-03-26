@@ -33,6 +33,7 @@ main {
   min-height: calc(100vh - 356px);
   border-top: inset medium var(--contrast-color);
   border-bottom: outset medium var(--contrast-color);
+  padding: 0 4em;
 }
 footer {
   grid-row-start: 2;

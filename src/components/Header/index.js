@@ -2,7 +2,7 @@ import banner from '../../banner.jpg';
 import {
     Navigation
 } from '../index';
-const Header = () => {
+const Header = (props) => {
     return (
         <header style={{
             backgroundImage: `url(${banner})`,
@@ -10,7 +10,7 @@ const Header = () => {
             width: '100vw',
             minHeight: '100px'
         }}>
-            <Navigation />
+            <Navigation {...props} />
         </header>
     )
 }

@@ -1,10 +1,18 @@
-const Navigation = () => {
+import NavItem from './NavItem';
+
+const navs = [
+    "About Me",
+    "Portfolio",
+    "Contact",
+    "Resume"
+];
+
+const Navigation = ({ currentNav, setCurrentNav }) => {
     return (
         <ul>
-            <li>About Me</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-            <li>Resume</li>
+            {navs.map((text, i) => {
+                return <NavItem text={text} currentNav={currentNav} setCurrentNav={setCurrentNav} key={i} />
+            })}
         </ul>
     )
 }
