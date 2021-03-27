@@ -45,6 +45,10 @@ main h1 {
   width: 100%;
   padding: 0 1em;
 }
+.error {
+  color: var(--contrast-color);
+  position: absolute;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -111,6 +115,32 @@ main h1 {
   left: 0;
   right: 0;
   bottom: 0;
+}
+.form button {
+  padding: 1em;
+  margin: 3em auto;
+  width: 100%;
+  background-color: var(--contrast-text);
+  color: white;
+}
+.form {
+  border: medium double var(--contrast-text);
+  background-color: var(--contrast-muted);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 315px;
+}
+.form form {
+  padding: 4em;
+}
+.form .form-control {
+  padding: 1em;
+  color: white;
+}
+.form label, .form input, .form textarea {
+  width: 100%;
 }
 
 blockquote {

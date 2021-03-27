@@ -1,5 +1,5 @@
 import {
-    Card
+    Project
 } from '../components';
 
 const portData = [
@@ -46,7 +46,7 @@ const Portfolio = () => {
         <section className="container">
             {
                 portData.map((project, i) => {
-                    return <Card project={project} key={i} />
+                    return <Project project={project} key={i} />
                 })
             }
         </section>

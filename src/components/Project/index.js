@@ -1,4 +1,4 @@
-const Card = ({ project }) => {
+const Project = ({ project }) => {
     return (
         <div className="card">
             <a className="link" target="_blank" href={project.repo}>🔗</a>
@@ -10,4 +10,4 @@ const Card = ({ project }) => {
     )
 }
 
-export default Card;
+export default Project;
