@@ -8,13 +8,17 @@ AS AN employer looking for candidates with experience building single-page appli
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position.
 
-## Contributing
+## Visit Live Link
 
-Live deployment link coming soon.
+[Live Site on GitHub Pages](https://rxtatx.github.io/react-pathway-port/)
 
 ## Layout
 
 Layout images coming soon.
+![Main Page](./public/assets/Capture.PNG)
+![Portfolio View](./public/assets/Capture2.PNG)
+![Contact Form](./public/assets/Capture3.PNG)
+Additionally, clicking on the Resume portion will allow you to initialize a Resume PDF download.
 
 ## Contributing
 
