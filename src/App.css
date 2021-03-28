@@ -5,7 +5,6 @@
   --primary-text: #000000;
   --contrast-text: #2590AE;
 }
-
 html {
   height: 100%;
 }
@@ -28,6 +27,9 @@ header ul li:hover {
   height: 100%;
   text-shadow: 0px 0px 3px var(--contrast-text);
   cursor: pointer;
+}
+.text-main {
+  color: var(--main-color);
 }
 main {
   background-color: var(--main-color);
@@ -183,6 +185,24 @@ footer {
   padding: 1em 2em;
   background: var(--contrast-text);
   color: white;
+}
+footer ul {
+  margin: 0;
+  list-style: none;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer li {
+  margin: 1em 0;
+}
+
+footer a {
+  margin: 0 .5em;
+  font-size: 1.25em;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1000px) {
