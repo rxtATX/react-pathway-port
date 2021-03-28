@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-pathway-port/static/css/main.03c10c82.chunk.css",
+    "main.js": "/react-pathway-port/static/js/main.662f8fd6.chunk.js",
+    "main.js.map": "/react-pathway-port/static/js/main.662f8fd6.chunk.js.map",
+    "runtime-main.js": "/react-pathway-port/static/js/runtime-main.8fe29739.js",
+    "runtime-main.js.map": "/react-pathway-port/static/js/runtime-main.8fe29739.js.map",
+    "static/js/2.6645beeb.chunk.js": "/react-pathway-port/static/js/2.6645beeb.chunk.js",
+    "static/js/2.6645beeb.chunk.js.map": "/react-pathway-port/static/js/2.6645beeb.chunk.js.map",
+    "static/js/3.cf44b46a.chunk.js": "/react-pathway-port/static/js/3.cf44b46a.chunk.js",
+    "static/js/3.cf44b46a.chunk.js.map": "/react-pathway-port/static/js/3.cf44b46a.chunk.js.map",
+    "index.html": "/react-pathway-port/index.html",
+    "static/css/main.03c10c82.chunk.css.map": "/react-pathway-port/static/css/main.03c10c82.chunk.css.map",
+    "static/js/2.6645beeb.chunk.js.LICENSE.txt": "/react-pathway-port/static/js/2.6645beeb.chunk.js.LICENSE.txt",
+    "static/media/banner.fdf5fc14.jpg": "/react-pathway-port/static/media/banner.fdf5fc14.jpg",
+    "static/media/dog.bedfabbf.jpg": "/react-pathway-port/static/media/dog.bedfabbf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fe29739.js",
+    "static/js/2.6645beeb.chunk.js",
+    "static/css/main.03c10c82.chunk.css",
+    "static/js/main.662f8fd6.chunk.js"
+  ]
+}
