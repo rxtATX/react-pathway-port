@@ -20,7 +20,6 @@ const App = () => {
     var link = document.createElement('a');
     link.href = process.env.PUBLIC_URL + "/assets/resume.pdf";
     link.download = 'resume.pdf';
-    console.log(link)
     link.dispatchEvent(new MouseEvent('click'));
   }
 
