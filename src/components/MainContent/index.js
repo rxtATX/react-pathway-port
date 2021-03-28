@@ -2,7 +2,6 @@ import {
     AboutMe,
     Contact,
     Portfolio,
-    Resume
 } from '../../pages';
 
 const MainContent = ({ currentNav }) => {
@@ -12,8 +11,6 @@ const MainContent = ({ currentNav }) => {
                 return <Contact />
             case "Portfolio":
                 return <Portfolio />
-            case "Resume":
-                return <Resume />
             default: return <AboutMe />
         }
     }
